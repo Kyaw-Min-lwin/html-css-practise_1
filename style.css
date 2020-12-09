@@ -1,0 +1,231 @@
+*{
+    font-size: 15px;
+    color:white;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1101px) {
+
+    header{
+        margin-left: 30px;
+        float: left;
+    }
+    h1{
+        display: inline;
+        font-size: 55px;
+        color:hsl(300, 43%, 22%);
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    #second{
+        color:hsl(303, 10%, 53%);
+        font-size: 18px;
+    }
+
+
+    #star1{
+        position: relative;
+        right: 140px;
+        margin: 10px;
+        padding: 10px 55px 10px 25px;
+        color:hsl(300, 43%, 22%);
+        font-size: 15px;/*
+        display: inline;*/
+        background-color: hsl(300, 24%, 96%);
+        font-weight: 600;
+    }
+    #star2{
+        position: relative;
+        right: 80px;
+        margin: 10px;
+        padding: 10px 55px 10px 25px;
+        font-weight: 600;
+        color:hsl(300, 43%, 22%);
+        font-size: 15px;/*
+        display: inline;*/
+        background-color: hsl(300, 24%, 96%);
+    }
+    #star3{
+        margin: 10px;
+        padding: 10px 55px 10px 25px;
+        font-weight: 600;
+        color:hsl(300, 43%, 22%);
+        font-size: 15px;/*
+        display: inline;*/
+        background-color: hsl(300, 24%, 96%);
+    }
+    main{
+        clear: both;
+    }
+    #container{
+        float: right;
+    }
+    .yell{
+        letter-spacing: 5px;
+        display: inline;
+        color: orange;
+    }
+    main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pictures{
+        margin: 40px 20px 0px 20px;
+        height: 50px;
+        border-radius: 30px;
+    }
+    .name{
+        position: relative;
+        bottom: 30px;
+        display: inline;
+        color:white;
+        font-size: 23px;
+    }
+
+    #colton, #anne, #robert{
+        border-radius: 12px;
+        width: 420px;
+    }
+
+    .buyer{
+        display: inline;
+        position: absolute;
+        left:96px;
+        top:55px;
+        color:hsl(333, 80%, 67%);
+        font-size: 17px;
+    }
+    .text{
+        padding: 15px 0px 10px 30px;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    #robert{
+        position: relative;
+        top:80px;
+        background-color: hsl(300, 43%, 22%);
+    }
+    #anne{
+        position: relative;
+        top: 110px;
+        background-color: hsl(300, 43%, 22%);
+    }
+    #colton{
+        position: relative;
+        top: 50px;
+        background-color: hsl(300, 43%, 22%);
+    }
+}
+@media screen and (max-width: 1099px) {
+    header{
+        margin-left: 30px;
+        text-align: center;
+    }
+    h1{
+        display: inline;
+        font-size: 3em;
+        color:hsl(300, 43%, 22%);
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    #second{
+        color:hsl(303, 10%, 53%);
+        font-size: 1.1em;
+    }
+
+
+    #star1{
+        text-align: center;
+        padding: 15px 55px 15px 25px;
+        color:hsl(300, 43%, 22%);
+        font-size: 15px;/*
+        display: inline;*/
+        background-color: hsl(300, 24%, 96%);
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    #star2{
+        margin-bottom: 15px;
+        text-align: center;
+        padding: 15px 55px 15px 25px;
+        font-weight: 600;
+        color:hsl(300, 43%, 22%);
+        font-size: 15px;/*
+        display: inline;*/
+        background-color: hsl(300, 24%, 96%);
+    }
+    #star3{
+        text-align: center;
+        padding: 15px 55px 15px 25px;
+        font-weight: 600;
+        color:hsl(300, 43%, 22%);
+        font-size: 15px;/*
+        display: inline;*/
+        background-color: hsl(300, 24%, 96%);
+    }
+
+    .yell{
+        letter-spacing: 5px;
+        display: inline;
+        color: orange;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pictures{
+        margin: 40px 20px 0px 20px;
+        height: 50px;
+        border-radius: 30px;
+    }
+    .name{
+        position: relative;
+        bottom: 30px;
+        display: inline;
+        color:white;
+        font-size: 23px;
+    }
+
+    #colton, #anne, #robert{
+        border-radius: 12px;
+        width: 24rem;
+        height: 300px;
+    }
+
+    .buyer{
+        display: inline;
+        position: absolute;
+        left:96px;
+        top:55px;
+        color:hsl(333, 80%, 67%);
+        font-size: 17px;
+    }
+    .text{
+        padding: 15px 0px 10px 30px;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    #robert{
+        position: relative;
+        top:80px;
+        background-color: hsl(300, 43%, 22%);
+    }
+    #anne{
+        position: relative;
+        top: 110px;
+        background-color: hsl(300, 43%, 22%);
+    }
+    #colton{
+        position: relative;
+        top: 50px;
+        background-color: hsl(300, 43%, 22%);
+    }
+}
